@@ -50,21 +50,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         mFragmentManager = getFragmentManager();
     }
 
-    private void selectItem(int position) {
-        // update the main content by replacing fragments
-//        RecyclerFragment1 fragment = new PlanetFragment();
-        Bundle args = new Bundle();
-//        args.putInt(PlanetFragment.ARG_PLANET_NUMBER, position);
-//        fragment.setArguments(args);
-
-        mFragmentManager = getFragmentManager();
-//        fragmentManager.beginTransaction().replace(R.id.drawer_frame, fragment).commit();
-
-        // update selected item and title, then close the drawer
-//        mDrawerList.setItemChecked(position, true);
-//        setTitle(mPlanetTitles[position]);
-//        mDrawerLayout.closeDrawer(mDrawerList);
-    }
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {

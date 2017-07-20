@@ -24,13 +24,13 @@ public class RecyclerFragment1 extends Fragment {
 
     private static final String TAG = RecyclerFragment1.class.getSimpleName();
 
-    @BindView(R.id.recycler_refresh1) SwipeRefreshLayout mSRLayout;
-    @BindView(R.id.recycler_view1) RecyclerView mRecyclerView;
+    @BindView(R.id.recycler_refresh) SwipeRefreshLayout mSRLayout;
+    @BindView(R.id.recycler_view) RecyclerView mRecyclerView;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.recycler_fragment1, container, false);
+        View view = inflater.inflate(R.layout.recycler_fragment, container, false);
         ButterKnife.bind(this, view);
 
         final RecyclerAdapter1 adapter = new RecyclerAdapter1(getContext());
