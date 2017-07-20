@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">MeterialDesign</string>
 
-    <!--navigation menus-->
+
     <string name="navi_recycler_view">Recycler View</string>
+    <string name="recycler_item_content">Recycler View Item</string>
+
+    <string name="drawer_open_desc">Open drawer</string>
+    <string name="drawer_close_desc">Close drawer</string>
 </resources>
